@@ -68,7 +68,7 @@ class ModalEdit extends Component {
         <FormControl
         type="textarea"
         value={this.state.recipe.ingredients}
-        placeholder= "Enter Ingedients"
+        placeholder= "Enter Ingredients"
         onChange= {(e) => this.handleChange("ingredients", e.target.value.split(","))}
         >
       </FormControl>
@@ -152,7 +152,7 @@ class ModalForm extends Component {
         <FormControl
         type="textarea"
         value={this.state.newestRecipe.ingredients}
-        placeholder= "Enter Ingedients"
+        placeholder= "Enter Ingredients"
         onChange= {(e) => this.handleChange("ingredients", e.target.value.split(","))}
         >
       </FormControl>
