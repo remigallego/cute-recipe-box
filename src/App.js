@@ -66,10 +66,27 @@ class App extends Component {
   render() {
     return(
       <div className="App container">
+        <h1>My recipes ◥█̆̈◤࿉∥</h1>
         <RecipeList recipes={this.state.recipes} handleDel={this.deleteRecipe} handleEdit={this.editRecipe}/>
         <ModalForm handleAdd={this.addRecipe}/>
+        <p id="numberrecipes">{this.numberRecipes()}</p>
+        <p id="bottomtext">{this.showHappy()}</p>
+        <footer>Made by Rémi Gallego</footer>
       </div>
     );
+  }
+
+  numberRecipes() {
+    let n = this.state.recipes.length;
+    if(n < 2)
+      return "You have " + this.state.recipes.length + " recipe."
+    else
+      return "You have " + this.state.recipes.length + " recipes."
+  }
+  showHappy() {
+    let n = this.state.recipes.length;
+    if(n > 0)
+      return "Happy cooking! ( ˘▽˘)っ♨"
   }
 }
 

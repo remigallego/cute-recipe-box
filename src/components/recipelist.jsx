@@ -33,7 +33,7 @@ class RecipeList extends Component {
             <Panel.Title toggle >{recipe.name}</Panel.Title>
             </Panel.Heading>
             <Panel.Body collapsible>
-              <ol>
+              <ol id="ingredientlist"><strong>Ingredients</strong>:
                 {recipe.ingredients.map((item) => (
                 <li key={item}>{item}</li>
                 ))}

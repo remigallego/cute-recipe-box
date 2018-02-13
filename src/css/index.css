@@ -43,11 +43,43 @@ label {
   display: flex; }
 
 #accordion {
-  text-align: left; }
+  text-align: left;
+  color: #2AA; }
+
+@media (max-width: 621px) {
+  #ingredientlist {
+    font-size: 90%;
+    margin-left: -20px; } }
 
 .container {
-  margin-top: 50px;
+  margin-top: 3%;
   width: 80%; }
 
 #recipescontainer {
   width: 100%; }
+
+#numberrecipes {
+  margin-top: 3%; }
+
+#bottomtext {
+  opacity: 0.6;
+  color: #FAA; }
+
+h1 {
+  margin: 0;
+  margin-bottom: 5%;
+  color: blue; }
+
+@media (max-width: 621px) {
+  h1 {
+    font-size: 80%;
+    margin-bottom: 10%; } }
+
+footer {
+  position: absolute;
+  font-size: 80%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3%;
+  background: #2cc; }
