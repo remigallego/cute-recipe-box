@@ -42,6 +42,9 @@ label {
 #del-edit-buttons {
   display: flex; }
 
+#accordion {
+  text-align: left; }
+
 .container {
   margin-top: 50px;
   width: 80%; }
