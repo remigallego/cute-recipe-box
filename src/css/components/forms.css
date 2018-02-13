@@ -1,0 +1,40 @@
+.form-control {
+  border-radius: 0;
+  padding-left: 2%;
+  margin-bottom: 0.5vmin; }
+
+#ingredient {
+  height: 40px; }
+
+#fabtn {
+  background: none;
+  color: inherit;
+  border: none; }
+
+.addbtn, .minusbtn {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  font-size: 20px; }
+
+.addbtn {
+  padding-right: 40%;
+  color: green; }
+
+.minusbtn {
+  color: red; }
+
+#plusminusbtn {
+  align-self: center;
+  display: flex;
+  margin-bottom: 10px; }
+
+.btndel {
+  margin-bottom: 10px; }
+
+label {
+  font-weight: bold; }
